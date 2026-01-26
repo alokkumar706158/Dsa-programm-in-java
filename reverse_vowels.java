@@ -18,7 +18,7 @@ public class reverse_vowels {
             char temp = arr[l];
             arr[l] = arr[r];
             arr[r] = temp;
-            
+
             l++;
             r--;
         }
@@ -26,3 +26,9 @@ public class reverse_vowels {
         return new String(arr);
     }
 }
+
+
+
+
+
+  
